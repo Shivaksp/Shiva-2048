@@ -205,20 +205,20 @@ function changeTable(temp){
             }
             t[i][j].innerHTML = temp[i][j];
             if(temp[i][j] == ''){t[i][j].style.backgroundColor = 'rgb(161, 161, 161)';}
-            if(temp[i][j] == '2'){t[i][j].style.backgroundColor = '#f0e4dc';t[i][j].style.color = 'rgb(99, 99, 99)';t[i][j].style.fontSize = '70px'}
-            if(temp[i][j] == '4'){t[i][j].style.backgroundColor = '#f0e4cc';t[i][j].style.color = 'rgb(99, 99, 99)';t[i][j].style.fontSize = '70px'}
-            if(temp[i][j] == '8'){t[i][j].style.backgroundColor = '#f8b47c' ;t[i][j].style.color = '#f9f6f2';t[i][j].style.fontSize = '70px'}
-            if(temp[i][j] == '16'){t[i][j].style.backgroundColor = '#f89464';t[i][j].style.color = '#f9f6f2';t[i][j].style.fontSize = '70px'}
-            if(temp[i][j] == '32'){t[i][j].style.backgroundColor = '#f87c5c';t[i][j].style.color = '#f9f6f2';t[i][j].style.fontSize = '70px'}
-            if(temp[i][j] == '64'){t[i][j].style.backgroundColor = '#f85c3c';t[i][j].style.color = '#f9f6f2';t[i][j].style.fontSize = '70px'}
-            if(temp[i][j] == '128'){t[i][j].style.backgroundColor = '#f0d474';t[i][j].style.color = '#f9f6f2';t[i][j].style.fontSize = '70px'}
-            if(temp[i][j] == '256'){t[i][j].style.backgroundColor = '#edcc61';t[i][j].style.color = '#f9f6f2';t[i][j].style.fontSize = '70px'}
-            if(temp[i][j] == '512'){t[i][j].style.backgroundColor = '#edc850';t[i][j].style.color = '#f9f6f2';t[i][j].style.fontSize = '70px'}
-            if(temp[i][j] == '1024'){t[i][j].style.backgroundColor = '#edc53f';t[i][j].style.color = '#f9f6f2';t[i][j].style.fontSize = '50px'}
+            if(temp[i][j] == '2'){t[i][j].style.backgroundColor = '#f0e4dc';t[i][j].style.color = 'rgb(99, 99, 99)';t[i][j].style.fontSize = '60px'}
+            if(temp[i][j] == '4'){t[i][j].style.backgroundColor = '#f0e4cc';t[i][j].style.color = 'rgb(99, 99, 99)';t[i][j].style.fontSize = '60px'}
+            if(temp[i][j] == '8'){t[i][j].style.backgroundColor = '#f8b47c' ;t[i][j].style.color = '#f9f6f2';t[i][j].style.fontSize = '60px'}
+            if(temp[i][j] == '16'){t[i][j].style.backgroundColor = '#f89464';t[i][j].style.color = '#f9f6f2';t[i][j].style.fontSize = '60px'}
+            if(temp[i][j] == '32'){t[i][j].style.backgroundColor = '#f87c5c';t[i][j].style.color = '#f9f6f2';t[i][j].style.fontSize = '60px'}
+            if(temp[i][j] == '64'){t[i][j].style.backgroundColor = '#f85c3c';t[i][j].style.color = '#f9f6f2';t[i][j].style.fontSize = '60px'}
+            if(temp[i][j] == '128'){t[i][j].style.backgroundColor = '#f0d474';t[i][j].style.color = '#f9f6f2';t[i][j].style.fontSize = '60px'}
+            if(temp[i][j] == '256'){t[i][j].style.backgroundColor = '#edcc61';t[i][j].style.color = '#f9f6f2';t[i][j].style.fontSize = '60px'}
+            if(temp[i][j] == '512'){t[i][j].style.backgroundColor = '#edc850';t[i][j].style.color = '#f9f6f2';t[i][j].style.fontSize = '60px'}
+            if(temp[i][j] == '1024'){t[i][j].style.backgroundColor = '#edc53f';t[i][j].style.color = '#f9f6f2';t[i][j].style.fontSize = '45px'}
             if(temp[i][j] == '2048'){
-                t[i][j].style.backgroundColor = '#edc22e';t[i][j].style.color = '#f9f6f2';t[i][j].style.fontSize = '50px';
-                alert('Congrats you won the game!!');
-                reloadGame();
+                t[i][j].style.backgroundColor = '#edc22e';t[i][j].style.color = '#f9f6f2';t[i][j].style.fontSize = '45px';
+                alert('Congrats you won the game!! /n You can continue the game!');
+               
             }
         }
     }
